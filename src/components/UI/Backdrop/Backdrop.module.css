@@ -1,0 +1,9 @@
+.Backdrop{
+    width: 100%;
+    height: 100%;
+    position: fixed; /* So that it stays in position even as we scroll*/
+    z-index: 100; /* So that it is above the elements we want to have it above*/
+    left: 0;
+    top: 0; /* To position it in the top left corner*/
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency*/
+}
